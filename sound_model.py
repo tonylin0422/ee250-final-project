@@ -9,6 +9,8 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
 
+### For the following code I referenced the ML material from Lab 8 in train.ipynb
+
 data = pd.read_csv('sound_data.csv')
 
 X = data[['sound_value']].to_numpy()  
